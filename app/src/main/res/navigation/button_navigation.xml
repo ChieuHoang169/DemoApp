@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_navigation"
+    app:startDestination="@id/folderFragment">
+
+    <fragment
+        android:id="@+id/folderFragment"
+        android:name="com.example.demo.FolderFragment"
+        android:label="fragment_folder"
+        tools:layout="@layout/fragment_folder" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.demo.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.demo.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.example.demo.TodoFragment"
+        android:label="fragment_todo"
+        tools:layout="@layout/fragment_todo" />
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.example.demo.CalenderFragment"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" />
+</navigation>
